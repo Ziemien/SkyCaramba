@@ -1,0 +1,6 @@
+framework module Pods_Sky_Caramba {
+  umbrella header "Pods-Sky_Caramba-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C576E8BA1C13DDA70076EC68 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576E8B91C13DDA70076EC68 /* API.swift */; };
+		C576E8BC1C13DDD40076EC68 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576E8BB1C13DDD40076EC68 /* AudioRecorder.swift */; };
+		C576E8BE1C13DDFC0076EC68 /* WitWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576E8BD1C13DDFC0076EC68 /* WitWrapper.swift */; };
+		C576E8C01C13DE170076EC68 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576E8BF1C13DE170076EC68 /* Logic.swift */; };
 		C5ABA0631C13901F0066B859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0621C13901F0066B859 /* AppDelegate.swift */; };
-		C5ABA0651C13901F0066B859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0641C13901F0066B859 /* ViewController.swift */; };
-		C5ABA0681C13901F0066B859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABA0661C13901F0066B859 /* Main.storyboard */; };
 		C5ABA06B1C13901F0066B859 /* Sky_Caramba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0691C13901F0066B859 /* Sky_Caramba.xcdatamodeld */; };
 		C5ABA06D1C13901F0066B859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ABA06C1C13901F0066B859 /* Assets.xcassets */; };
-		C5ABA0701C13901F0066B859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABA06E1C13901F0066B859 /* LaunchScreen.storyboard */; };
 		C5ABA07B1C13901F0066B859 /* Sky_CarambaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA07A1C13901F0066B859 /* Sky_CarambaTests.swift */; };
 		C5ABA0861C13901F0066B859 /* Sky_CarambaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0851C13901F0066B859 /* Sky_CarambaUITests.swift */; };
+		C5ABA0941C1392A60066B859 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0931C1392A60066B859 /* NavigationController.swift */; };
+		C5ABA0A31C1396F60066B859 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0A11C1396F60066B859 /* HomeViewController.swift */; };
+		C5ABA0A41C1396F60066B859 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5ABA0A21C1396F60066B859 /* HomeViewController.xib */; };
+		C5ABA0A71C13971E0066B859 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0A51C13971E0066B859 /* ConversationViewController.swift */; };
+		C5ABA0A81C13971E0066B859 /* ConversationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5ABA0A61C13971E0066B859 /* ConversationViewController.xib */; };
+		C5ABA0AA1C13979C0066B859 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0A91C13979C0066B859 /* UIViewController.swift */; };
+		C5ABA0B31C13BDEE0066B859 /* ConCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0B21C13BDEE0066B859 /* ConCellTableViewCell.swift */; };
+		C5ABA0B51C13BF380066B859 /* ResponseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0B41C13BF380066B859 /* ResponseTableViewCell.swift */; };
+		C5ABA0B81C13BF6C0066B859 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0B61C13BF6C0066B859 /* MovieTableViewCell.swift */; };
+		C5ABA0B91C13BF6C0066B859 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5ABA0B71C13BF6C0066B859 /* MovieTableViewCell.xib */; };
+		C5ABA0BB1C13C1840066B859 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABA0BA1C13C1840066B859 /* Data.swift */; };
+		E1C290E143098566FAB50E74 /* Pods_Sky_Caramba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105282048BAE43D258279248 /* Pods_Sky_Caramba.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105282048BAE43D258279248 /* Pods_Sky_Caramba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sky_Caramba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		108725444CB0BA5CCEB93B9D /* Pods-Sky_Caramba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sky_Caramba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sky_Caramba/Pods-Sky_Caramba.release.xcconfig"; sourceTree = "<group>"; };
+		C576E8B91C13DDA70076EC68 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C576E8BB1C13DDD40076EC68 /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		C576E8BD1C13DDFC0076EC68 /* WitWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WitWrapper.swift; sourceTree = "<group>"; };
+		C576E8BF1C13DE170076EC68 /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 		C5ABA05F1C13901F0066B859 /* Sky_Caramba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sky_Caramba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABA0621C13901F0066B859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5ABA0641C13901F0066B859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5ABA0671C13901F0066B859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5ABA06A1C13901F0066B859 /* Sky_Caramba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sky_Caramba.xcdatamodel; sourceTree = "<group>"; };
 		C5ABA06C1C13901F0066B859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5ABA06F1C13901F0066B859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5ABA0711C13901F0066B859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5ABA0761C13901F0066B859 /* Sky_CarambaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sky_CarambaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABA07A1C13901F0066B859 /* Sky_CarambaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky_CarambaTests.swift; sourceTree = "<group>"; };
@@ -49,6 +65,18 @@
 		C5ABA0811C13901F0066B859 /* Sky_CarambaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sky_CarambaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABA0851C13901F0066B859 /* Sky_CarambaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky_CarambaUITests.swift; sourceTree = "<group>"; };
 		C5ABA0871C13901F0066B859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5ABA0931C1392A60066B859 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		C5ABA0A11C1396F60066B859 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		C5ABA0A21C1396F60066B859 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
+		C5ABA0A51C13971E0066B859 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		C5ABA0A61C13971E0066B859 /* ConversationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationViewController.xib; sourceTree = "<group>"; };
+		C5ABA0A91C13979C0066B859 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C5ABA0B21C13BDEE0066B859 /* ConCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConCellTableViewCell.swift; sourceTree = "<group>"; };
+		C5ABA0B41C13BF380066B859 /* ResponseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseTableViewCell.swift; sourceTree = "<group>"; };
+		C5ABA0B61C13BF6C0066B859 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C5ABA0B71C13BF6C0066B859 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		C5ABA0BA1C13C1840066B859 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E2C00E7774843FCDDBBEEB93 /* Pods-Sky_Caramba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sky_Caramba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sky_Caramba/Pods-Sky_Caramba.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C290E143098566FAB50E74 /* Pods_Sky_Caramba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7D7BAA997502BD78528D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				105282048BAE43D258279248 /* Pods_Sky_Caramba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576593AB7ED6AC9101DB69BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2C00E7774843FCDDBBEEB93 /* Pods-Sky_Caramba.debug.xcconfig */,
+				108725444CB0BA5CCEB93B9D /* Pods-Sky_Caramba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C576E8B81C13DD880076EC68 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C576E8B91C13DDA70076EC68 /* API.swift */,
+				C576E8BB1C13DDD40076EC68 /* AudioRecorder.swift */,
+				C576E8BD1C13DDFC0076EC68 /* WitWrapper.swift */,
+				C576E8BF1C13DE170076EC68 /* Logic.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		C5ABA0561C13901F0066B859 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +140,8 @@
 				C5ABA0791C13901F0066B859 /* Sky_CarambaTests */,
 				C5ABA0841C13901F0066B859 /* Sky_CarambaUITests */,
 				C5ABA0601C13901F0066B859 /* Products */,
+				576593AB7ED6AC9101DB69BF /* Pods */,
+				2A7D7BAA997502BD78528D3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +158,14 @@
 		C5ABA0611C13901F0066B859 /* Sky_Caramba */ = {
 			isa = PBXGroup;
 			children = (
+				C576E8B81C13DD880076EC68 /* Util */,
+				C5ABA0BC1C13C1880066B859 /* Model */,
+				C5ABA0AF1C13BB360066B859 /* Cell */,
+				C5ABA09A1C1393F50066B859 /* View */,
+				C5ABA0991C1393E20066B859 /* Controller */,
 				C5ABA0621C13901F0066B859 /* AppDelegate.swift */,
-				C5ABA0641C13901F0066B859 /* ViewController.swift */,
-				C5ABA0661C13901F0066B859 /* Main.storyboard */,
+				C5ABA0A91C13979C0066B859 /* UIViewController.swift */,
 				C5ABA06C1C13901F0066B859 /* Assets.xcassets */,
-				C5ABA06E1C13901F0066B859 /* LaunchScreen.storyboard */,
 				C5ABA0711C13901F0066B859 /* Info.plist */,
 				C5ABA0691C13901F0066B859 /* Sky_Caramba.xcdatamodeld */,
 			);
@@ -128,6 +190,44 @@
 			path = Sky_CarambaUITests;
 			sourceTree = "<group>";
 		};
+		C5ABA0991C1393E20066B859 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABA0A51C13971E0066B859 /* ConversationViewController.swift */,
+				C5ABA0A11C1396F60066B859 /* HomeViewController.swift */,
+				C5ABA0931C1392A60066B859 /* NavigationController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C5ABA09A1C1393F50066B859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABA0B71C13BF6C0066B859 /* MovieTableViewCell.xib */,
+				C5ABA0A21C1396F60066B859 /* HomeViewController.xib */,
+				C5ABA0A61C13971E0066B859 /* ConversationViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C5ABA0AF1C13BB360066B859 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABA0B21C13BDEE0066B859 /* ConCellTableViewCell.swift */,
+				C5ABA0B41C13BF380066B859 /* ResponseTableViewCell.swift */,
+				C5ABA0B61C13BF6C0066B859 /* MovieTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		C5ABA0BC1C13C1880066B859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABA0BA1C13C1840066B859 /* Data.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5ABA08A1C13901F0066B859 /* Build configuration list for PBXNativeTarget "Sky_Caramba" */;
 			buildPhases = (
+				2A80D072987C13A854C7FACF /* Check Pods Manifest.lock */,
 				C5ABA05B1C13901F0066B859 /* Sources */,
 				C5ABA05C1C13901F0066B859 /* Frameworks */,
 				C5ABA05D1C13901F0066B859 /* Resources */,
+				79B702D67BF9D881A2C1FB6A /* Embed Pods Frameworks */,
+				52B3BF36CDE565C4E227C763 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +335,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5ABA0701C13901F0066B859 /* LaunchScreen.storyboard in Resources */,
+				C5ABA0A81C13971E0066B859 /* ConversationViewController.xib in Resources */,
 				C5ABA06D1C13901F0066B859 /* Assets.xcassets in Resources */,
-				C5ABA0681C13901F0066B859 /* Main.storyboard in Resources */,
+				C5ABA0B91C13BF6C0066B859 /* MovieTableViewCell.xib in Resources */,
+				C5ABA0A41C1396F60066B859 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +358,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A80D072987C13A854C7FACF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52B3BF36CDE565C4E227C763 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sky_Caramba/Pods-Sky_Caramba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B702D67BF9D881A2C1FB6A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sky_Caramba/Pods-Sky_Caramba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5ABA05B1C13901F0066B859 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C576E8BA1C13DDA70076EC68 /* API.swift in Sources */,
+				C5ABA0B51C13BF380066B859 /* ResponseTableViewCell.swift in Sources */,
+				C5ABA0BB1C13C1840066B859 /* Data.swift in Sources */,
+				C5ABA0B31C13BDEE0066B859 /* ConCellTableViewCell.swift in Sources */,
+				C5ABA0B81C13BF6C0066B859 /* MovieTableViewCell.swift in Sources */,
+				C576E8BE1C13DDFC0076EC68 /* WitWrapper.swift in Sources */,
 				C5ABA06B1C13901F0066B859 /* Sky_Caramba.xcdatamodeld in Sources */,
-				C5ABA0651C13901F0066B859 /* ViewController.swift in Sources */,
+				C576E8BC1C13DDD40076EC68 /* AudioRecorder.swift in Sources */,
+				C5ABA0941C1392A60066B859 /* NavigationController.swift in Sources */,
+				C5ABA0AA1C13979C0066B859 /* UIViewController.swift in Sources */,
+				C576E8C01C13DE170076EC68 /* Logic.swift in Sources */,
+				C5ABA0A71C13971E0066B859 /* ConversationViewController.swift in Sources */,
 				C5ABA0631C13901F0066B859 /* AppDelegate.swift in Sources */,
+				C5ABA0A31C1396F60066B859 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +458,6 @@
 			targetProxy = C5ABA0821C13901F0066B859 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C5ABA0661C13901F0066B859 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5ABA0671C13901F0066B859 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5ABA06E1C13901F0066B859 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5ABA06F1C13901F0066B859 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C5ABA0881C13901F0066B859 /* Debug */ = {
@@ -399,6 +543,7 @@
 		};
 		C5ABA08B1C13901F0066B859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C00E7774843FCDDBBEEB93 /* Pods-Sky_Caramba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sky_Caramba/Info.plist;
@@ -410,6 +555,7 @@
 		};
 		C5ABA08C1C13901F0066B859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108725444CB0BA5CCEB93B9D /* Pods-Sky_Caramba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sky_Caramba/Info.plist;
@@ -486,6 +632,7 @@
 				C5ABA08C1C13901F0066B859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5ABA08D1C13901F0066B859 /* Build configuration list for PBXNativeTarget "Sky_CarambaTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +641,7 @@
 				C5ABA08F1C13901F0066B859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5ABA0901C13901F0066B859 /* Build configuration list for PBXNativeTarget "Sky_CarambaUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +650,7 @@
 				C5ABA0921C13901F0066B859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
